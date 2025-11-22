@@ -76,8 +76,6 @@ const formSchema = authFormSchema(type);
       const newUser = await signUp(userData);
 
       setUser(newUser);
-      
-
     } 
     
     
